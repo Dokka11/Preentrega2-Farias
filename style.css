@@ -1,0 +1,52 @@
+
+.mb-2{
+    margin-bottom: 20px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.mt-1{
+    margin-top: 1px;
+}
+body{
+    background-color: #9c1818;
+}
+.container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.cursor{
+    cursor:grab;
+}
+.gridProductos div:hover{
+    background-color: #660d0d;
+}
+.gridProductos{
+    display: grid;
+    grid-template-areas: 
+    "AK47HeadShot AK47PhantomDisruptor AK47VULCAN"
+    "AWPNeoNoir AWPChromaticAberration KarambitGammaDoppler";
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto auto;
+}
+.AK47HeadShot{grid-area: AK47HeadShot;}
+.AK47PhantomDisruptor{grid-area: AK47PhantomDisruptor;}
+.AK47VULCAN{grid-area: AK47VULCAN;}
+.AWPNeoNoir{grid-area: AWPNeoNoir;}
+.AWPChromaticAberration{grid-area: AWPChromaticAberration;}
+.KarambitGammaDoppler{grid-area: KarambitGammaDoppler;}
+
+.bolsaCompras{
+    background-color: #a800009c;
+    border-radius: 1rem;
+    padding-bottom: 2px;
+}
+.prodCompradosBg:hover{
+    background-color: #580a0a;
+    border-radius: 5px;
+}
+.contenedorCompras{
+    display: flex;
+    justify-content:space-evenly;
+}
